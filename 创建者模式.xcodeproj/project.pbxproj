@@ -16,6 +16,11 @@
 		F56DB5EF2A04DE83002D1674 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DB5EE2A04DE83002D1674 /* _____Tests.swift */; };
 		F56DB5F92A04DE83002D1674 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DB5F82A04DE83002D1674 /* _____UITests.swift */; };
 		F56DB5FB2A04DE83002D1674 /* _____UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DB5FA2A04DE83002D1674 /* _____UITestsLaunchTests.swift */; };
+		F56DB6082A04DEF3002D1674 /* TeaBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DB6072A04DEF3002D1674 /* TeaBuilder.swift */; };
+		F56DB60A2A04DF83002D1674 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DB6092A04DF83002D1674 /* Director.swift */; };
+		F56DB60C2A04E875002D1674 /* RedTeaBulider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DB60B2A04E875002D1674 /* RedTeaBulider.swift */; };
+		F56DB60E2A04E881002D1674 /* GreenTeaBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DB60D2A04E881002D1674 /* GreenTeaBuilder.swift */; };
+		F56DB6102A04EAB1002D1674 /* Tea.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DB60F2A04EAB1002D1674 /* Tea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		F56DB5F42A04DE83002D1674 /* 创建者模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "创建者模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56DB5F82A04DE83002D1674 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		F56DB5FA2A04DE83002D1674 /* _____UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		F56DB6072A04DEF3002D1674 /* TeaBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaBuilder.swift; sourceTree = "<group>"; };
+		F56DB6092A04DF83002D1674 /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		F56DB60B2A04E875002D1674 /* RedTeaBulider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedTeaBulider.swift; sourceTree = "<group>"; };
+		F56DB60D2A04E881002D1674 /* GreenTeaBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTeaBuilder.swift; sourceTree = "<group>"; };
+		F56DB60F2A04EAB1002D1674 /* Tea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				F56DB5D72A04DE81002D1674 /* AppDelegate.swift */,
 				F56DB5D92A04DE81002D1674 /* SceneDelegate.swift */,
 				F56DB5DB2A04DE81002D1674 /* ViewController.swift */,
+				F56DB60F2A04EAB1002D1674 /* Tea.swift */,
+				F56DB6072A04DEF3002D1674 /* TeaBuilder.swift */,
+				F56DB60D2A04E881002D1674 /* GreenTeaBuilder.swift */,
+				F56DB6092A04DF83002D1674 /* Director.swift */,
+				F56DB60B2A04E875002D1674 /* RedTeaBulider.swift */,
 				F56DB5DD2A04DE81002D1674 /* Main.storyboard */,
 				F56DB5E02A04DE82002D1674 /* Assets.xcassets */,
 				F56DB5E22A04DE83002D1674 /* LaunchScreen.storyboard */,
@@ -258,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56DB60E2A04E881002D1674 /* GreenTeaBuilder.swift in Sources */,
+				F56DB6082A04DEF3002D1674 /* TeaBuilder.swift in Sources */,
 				F56DB5DC2A04DE81002D1674 /* ViewController.swift in Sources */,
+				F56DB60A2A04DF83002D1674 /* Director.swift in Sources */,
 				F56DB5D82A04DE81002D1674 /* AppDelegate.swift in Sources */,
+				F56DB60C2A04E875002D1674 /* RedTeaBulider.swift in Sources */,
+				F56DB6102A04EAB1002D1674 /* Tea.swift in Sources */,
 				F56DB5DA2A04DE81002D1674 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
